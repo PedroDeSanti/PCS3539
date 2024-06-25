@@ -16,7 +16,7 @@ Inicialmente é necessário declarar o raio, que parte de um ponto de trás da t
 ```cpp
 vec3 ro = vec3(0, 0, -3);         // ray origin
 vec3 rd = normalize(vec3(uv, 1)); // ray direction
-float t = 0. // total distance travelled
+float t = 0. // total distance traveled
 ```
 
 ## Função de distâncias
